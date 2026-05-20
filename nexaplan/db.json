@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Redesign",
+      "tasks": [
+        { "id": 1, "title": "Setup NexaPlan", "description": "Initialize Vue + Tailwind project", "status": "To Do" },
+        { "id": 2, "title": "Design Dashboard", "description": "Create layout with charts", "status": "In Progress" }
+      ]
+    }
+  ],
+  "invoices": {
+    "overdue": 5,
+    "notPaid": 5,
+    "partiallyPaid": 5,
+    "fullyPaid": 5,
+    "draft": 5
+  },
+  "meetings": [
+    { "id": 1, "title": "App Project", "time": "6:45 PM", "platform": "Meet" },
+    { "id": 2, "title": "User Research", "time": "6:45 PM", "platform": "Zoom" }
+  ],
+  "tickets": [
+    { "id": 1, "user": "Jacob Martinez", "message": "I need 3 more new features on the mobile app design" },
+    { "id": 2, "user": "Luke Bell", "message": "Please update the dashboard layout for Vision Pro" },
+    { "id": 3, "user": "Connor Mitchell", "message": "Add more customization options for the prototype" }
+  ]
+}
